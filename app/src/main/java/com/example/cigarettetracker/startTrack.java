@@ -26,37 +26,37 @@ public class startTrack extends MainActivity {
         String date_n = new SimpleDateFormat("MMM dd, yyyy", Locale.getDefault()).format(new Date());
         TextView date  = findViewById(R.id.date);
         date.setText(date_n);
-    }
+    }}
 
 //    mButton.setOnClickListener(new View.OnClickListener() {
 //
 //        }
 
-    @public void add_Cigarette(){
-        // Init tallys
-
-        int dayTally = 0;
-        int timeLost = 0;
-
-        // Log entry
-
-        // Add to dayTally
-
-        dayTally = dayTally + 1;
-        timeLost = dayTally * 7;
-
-
-        // Display new tallys & time lost
-
-        TextView dayCount = findViewById(R.id.note);
-        dayCount.setText(dayTally);
-
-        TextView timeText =findViewById(R.id.timeView);
-        timeText.setText(timeLost + R.string.minutes_word);
-
-    }
-
-
-
-
-}
+//    @public void add_Cigarette(){
+//        // Init tallys
+//
+//        int dayTally = 0;
+//        int timeLost = 0;
+//
+//        // Log entry
+//
+//        // Add to dayTally
+//
+//        dayTally = dayTally + 1;
+//        timeLost = dayTally * 7;
+//
+//
+//        // Display new tallys & time lost
+//
+//        TextView dayCount = findViewById(R.id.note);
+//        dayCount.setText(dayTally);
+//
+//        TextView timeText =findViewById(R.id.timeView);
+//        timeText.setText(timeLost + R.string.minutes_word);
+//
+//    }
+//
+//
+//
+//
+//}
